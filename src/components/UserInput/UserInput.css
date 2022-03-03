@@ -1,0 +1,15 @@
+.sliders div {
+  margin: 0 1rem;
+}
+
+.sliders,
+.sliders div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.search-box-container {
+  margin: 1rem 0;
+}

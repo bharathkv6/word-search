@@ -1,0 +1,20 @@
+.column {
+  text-align: center;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.column:last-child {
+  border-right: 1px solid black;
+}
+
+.row:last-child .column {
+  border-bottom: 1px solid black;
+}
+
+.active {
+  background-color: yellow;
+}
